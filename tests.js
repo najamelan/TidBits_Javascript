@@ -8,6 +8,6 @@ var TidBits = TidBits || {}
 if( 'undefined' !== typeof module )
 {
 	TidBits.testOoJs     = require( './OoJs/tests/testOoJs.js'            ).testOoJs
-	TidBits.testTestCase = require( './unitTesting/tests/testTestCase.js' ).testTestCase
+	TidBits.testTestCase = require( './UnitTesting/tests/testTestCase.js' ).testTestCase
 }
 
