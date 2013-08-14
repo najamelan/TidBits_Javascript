@@ -1,0 +1,6 @@
+[submodule "OoJs"]
+	path = OoJs
+	url = git@github.com:najamelan/TidBits_Javascript_OoJs.git
+[submodule "UnitTesting"]
+	path = UnitTesting
+	url = git@github.com:najamelan/TidBits_Javascript_UnitTesting.git
