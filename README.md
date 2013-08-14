@@ -1,5 +1,5 @@
-TidBits JavaScript
-==================
+# TidBits JavaScript - [![Build Status](https://travis-ci.org/najamelan/TidBits_Javascript.png)](https://travis-ci.org/najamelan/TidBits_Javascript])
+
 
 A collection of JavaScript snippets centrally organised, documented and unit tested.
 
@@ -15,9 +15,22 @@ The TidBits concept focusses on making available general purpose utilities in a 
 
 ## Installation
 If you want an offline copy of all the modules, you can add TidBits JavaScript entirely as a submodule to your project (don't worry, it's not big):
-```bash
 
+```bash
+git submodule add https://github.com/najamelan/TidBits_Javascript.git includes/TidBits
+git submodule update --init --recursive
+cd includes/TidBits
+
+# if you have npm, just do:
+npm test
+
+# else if you have nodejs
+node tests.js
+
+# if you have a browser, open test.htm
 ```
+
+If you want individual modules only, have a look at their readme file for installation instructions
 
 ## Usage
 
