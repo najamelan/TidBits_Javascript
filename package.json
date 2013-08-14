@@ -1,6 +1,9 @@
 {
-	"scripts":
-	{
-  		"test": "node ./tests.js"
-	}
+	  "name": "TidBits"
+	, "version": "13.08.14-alpha"
+
+	, "scripts":
+	  {
+  	     "test": "node ./tests.js"
+	  }
 }
