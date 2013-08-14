@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+
+	<script src="OoJs/oojs.dev.js"        ></script>
+	<script src="unitTesting/TestCase.js"></script>
+	<script src="unitTesting/tests/testTestCase.js"></script>
+
+	<script src="OoJs/tests/oojsTestData.js"></script>
+	<script src="OoJs/tests/testOoJs.js"></script>
+
+	<script>
+
+		function run()
+		{
+			var testOoJs        = new TidBits.Test_OoJS
+			var testUnitTesting = new TidBits.Test_TestCase
+
+			document.getElementById( 'output' ).innerHTML += testOoJs       .getResults() + "<hr />"
+			document.getElementById( 'output' ).innerHTML += testUnitTesting.getResults() + "<hr />"
+		}
+
+	</script>
+
+</head>
+<body onload="run()">
+
+	<pre id="output"></pre>
+</body>
+</html>
