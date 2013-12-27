@@ -7,7 +7,12 @@ var TidBits = TidBits || {}
 //
 if( 'undefined' !== typeof module )
 {
-	TidBits.testOoJs     = require( './OoJs/tests/testOoJs.js'            ).testOoJs
-	TidBits.testTestCase = require( './UnitTesting/tests/testTestCase.js' ).testTestCase
+	require( './OoJs/tests/Test_OoJS.js'           )
+
+	console.log( "-------------------------------------------------------------------" );
+
+	require( './UnitTesting/tests/testTestCase.js' )
+
+	console.log( "-------------------------------------------------------------------" );
 }
 
