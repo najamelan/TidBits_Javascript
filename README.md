@@ -1,4 +1,4 @@
-# TidBits JavaScript - [![Build Status](https://travis-ci.org/najamelan/TidBits_Javascript.png)](https://travis-ci.org/najamelan/TidBits_Javascript)[![Build Status](https://codeship.com/projects/6af87c80-1e68-0134-ca6d-32ce5c504033/status?branch=master)](https://codeship.com/projects/6af87c80-1e68-0134-ca6d-32ce5c504033/status?branch=master)
+# TidBits JavaScript - [![Build Status](https://travis-ci.org/najamelan/TidBits_Javascript.png)](https://travis-ci.org/najamelan/TidBits_Javascript)[![Build Status](https://app.codeship.com/projects/ddc31720-9ba4-0135-f438-2e7abb19bcf1/status?branch=master)](https://codeship.com/projects/6af87c80-1e68-0134-ca6d-32ce5c504033/status?branch=master)
 
 
 A collection of JavaScript snippets centrally organised, documented and unit tested.
