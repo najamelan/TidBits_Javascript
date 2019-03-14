@@ -1,4 +1,12 @@
-# TidBits JavaScript - [![Build Status](https://travis-ci.org/najamelan/TidBits_Javascript.png)](https://travis-ci.org/najamelan/TidBits_Javascript)[![Build Status](https://app.codeship.com/projects/ddc31720-9ba4-0135-f438-2e7abb19bcf1/status?branch=master)](https://codeship.com/projects/6af87c80-1e68-0134-ca6d-32ce5c504033/status?branch=master)
+# TidBits JavaScript
+
+<aside class="warning">
+
+We can now compile [rust to web assembly](https://youtu.be/TwuIRcpeUWE). As far as I'm concerned JavaScript is now dead, buried and forgotten. I finally woke up from a very long nightmare of being locked into Js by browsers.
+
+Anyway, this never reached stable. I couldn't advise you on using JavaScript, but there's a lot of people that created programming languages for the sole purpose of not having to write Js directly, and if I'm not mistaking, [TypeScript](https://www.typescriptlang.org/) probably can do for you what this library did and surely much more too...
+
+</aside>
 
 
 A collection of JavaScript snippets centrally organised, documented and unit tested.
@@ -34,7 +42,7 @@ If you want individual modules only, have a look at their readme file for instal
 
 ## Usage
 
-All snippets by themselves are git repositories on their own right, and this allows you to add them on an individual basis to your repositories as submodules, or to clone the TidBits central repository to have all of them available. 
+All snippets by themselves are git repositories on their own right, and this allows you to add them on an individual basis to your repositories as submodules, or to clone the TidBits central repository to have all of them available.
 
 There are 2 files which just allow centrally testing all snippets:
 
